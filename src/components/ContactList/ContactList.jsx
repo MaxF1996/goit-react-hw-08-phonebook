@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts, deleteContact } from '../../redux/operations';
 
-import { selectContacts, selectError, selectFilter, selectIsLoading } from 'redux/selectors';
+import { selectContacts, selectError, selectFilter, selectIsLoading } from '../../redux/selectors';
 
 import {
   ContactListUl,
