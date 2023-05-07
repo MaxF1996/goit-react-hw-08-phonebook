@@ -1,5 +1,11 @@
 @import-normalize; /* bring in normalize.css styles */
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 p,
 h1,
 h2,
@@ -22,6 +28,9 @@ a {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .list {
@@ -38,7 +47,8 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: whitesmoke;
+  background-color: black;
+  color: white;
 }
 
 code {

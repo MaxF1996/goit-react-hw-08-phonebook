@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const Nav = styled.nav`
-  display: inline-block;
+  display: flex;
   max-width: fit-content;
 `;
 
@@ -11,8 +11,11 @@ export const NavigationLink = styled(NavLink)`
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: #2a363b;
+  color: white;
   &.active {
-    color: #e84a5f;
+    color: gold;
   }
+  /* :hover {
+    background-color: #fff;
+  } */
 `;

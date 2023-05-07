@@ -9,6 +9,7 @@ import {
   ContactListItem,
   ContactItemDeleteBtn,
   ContactItemInfo,
+  ContactItemInfoName,
 } from './ContactList.styled';
 
 const ContactList = () => {
@@ -37,7 +38,7 @@ const ContactList = () => {
           return (
             <ContactListItem key={contact.id}>
               <ContactItemInfo>
-                <b>{contact.name}</b>:<br /> {contact.number}
+                <ContactItemInfoName>{contact.name}</ContactItemInfoName>:<br /> {contact.number}
               </ContactItemInfo>
               <ContactItemDeleteBtn
                 type="button"

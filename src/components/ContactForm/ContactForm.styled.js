@@ -7,11 +7,14 @@ export const ContactFormBody = styled.form`
     align-items: center;
 
     flex-wrap: wrap;
+
+    margin-bottom: 30px;
   }
 `;
 
 export const ContactField = styled.div`
   width: 46%;
+  margin-bottom: 15px;
 `;
 
 export const ContactFormLabel = styled.label`
@@ -19,22 +22,24 @@ export const ContactFormLabel = styled.label`
   font-weight: 700;
   font-size: 20px;
   max-width: fit-content;
+  margin-bottom: 15px;
 `;
 
 export const ContactFormInput = styled.input`
-  box-sizing: border-box;
   border-radius: 7px;
   border-style: unset;
+  outline: none;
   display: block;
+  border: 2px solid gold;
   height: 35px;
   font-size: 18px;
-  margin-bottom: 15px;
   min-width: 250px;
+  max-width: 325px;
   width: 100%;
 `;
 export const ContactFormBtn = styled.button`
   display: block;
-  border: 2px solid black;
+  border: 2px solid gold;
   border-radius: 5px;
   line-height: 1;
   padding: 8px;
@@ -45,8 +50,8 @@ export const ContactFormBtn = styled.button`
     background-color: black;
     color: white;
   }
-  :active {
+  /* :active {
     color: green;
     border: 2px solid green;
-  }
+  } */
 `;

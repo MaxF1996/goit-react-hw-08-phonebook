@@ -18,21 +18,27 @@ export const ContactItemInfo = styled.span`
   max-width: fit-content;
 `;
 
+export const ContactItemInfoName = styled.span`
+  color: gold;
+`;
+
 export const ContactItemDeleteBtn = styled.button`
   margin-left: 10px;
-  border: 2px solid black;
+  border: 2px solid gold;
   border-radius: 5px;
   line-height: 1;
   padding: 5px;
   color: black;
   font-weight: 700;
-  background-color: white;
+  background-color: transparent;
+  color: white;
   :hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   :active {
     color: red;
+    background-color: transparent;
     border: 2px solid red;
   }
 `;
